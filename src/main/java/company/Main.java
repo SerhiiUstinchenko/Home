@@ -12,6 +12,7 @@ public class Main {
                 data.append("\n" + (i+1) + ".)").append(" " + plans[i] + ";");
             }
             String result = data.toString();
+            System.out.println();
             System.out.println(result);
 
 
